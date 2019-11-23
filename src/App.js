@@ -12,7 +12,7 @@ class App extends Component {
     return (
       <div className="App" id="hero">
         <video autoPlay muted loop id="video">
-          <source src="https://mm-videos-102.s3.eu-west-3.amazonaws.com/medaf-video.mp4" type="video/mp4" />
+          <source src="https://cdn.sanity.io/files/zd4otycc/production/2ef193e44fc5c94302805dbc31d717b0bb50ca75.mp4" type="video/mp4" />
           Your browser does not support the video tag.
       </video>
         <div id="content"></div>
