@@ -6,7 +6,7 @@
     "@sanity/client": "^0.145.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-scripts": "3.2.0",
+    "react-scripts": "5.0.1",
     "react-tooltip": "^3.11.1",
     "sal.js": "^0.6.4",
     "typewriter-effect": "^2.12.1"
