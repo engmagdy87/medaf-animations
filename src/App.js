@@ -7,6 +7,11 @@ import 'sal.js/dist/sal.css';
 class App extends Component {
   componentDidMount() {
     sal();
+    fetch('https://zd4otycc.api.sanity.io/v1/data/query/production?query=*%5B_type%20%3D%3D%20%22projects%22%5D%7B%0A%20%20%22manuscript%22%3A%20manuscript.asset-%3Eurl%2C%0A%7D').then(data => data.json).then(res => {
+      console.log('====================================');
+      console.log(res);
+      console.log('====================================');
+    })
   }
   render() {
     return (
